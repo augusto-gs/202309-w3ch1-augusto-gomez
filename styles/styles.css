@@ -3,3 +3,19 @@
 ::after {
   box-sizing: border-box;
 }
+
+:root {
+  --main-bg-color: #000000;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  padding: 5px;
+}
+
+label {
+  padding: 5px;
+}
