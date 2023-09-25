@@ -10,6 +10,17 @@
 
 html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #116fdc;
+}
+
+form {
+  border-style: solid;
+  border-radius: 33px;
+  display: inline-block;
+}
+
+.programmed-date {
+  margin: 5px;
 }
 
 input {
@@ -18,8 +29,25 @@ input {
 
 label {
   padding: 5px;
+  border-style: solid;
+  border-radius: 33px;
+  background-color: #0d4f91;
+  color: #ffffff;
+}
+.body-and-file {
+  display: flex;
+  align-items: flex-start;
 }
 
 .mail-section {
   margin: 10px;
+}
+
+.body-input {
+  padding: 5px 20px 50px 5px;
+  margin: 0 5px 5px 5px;
+}
+
+button {
+  margin: 20px;
 }
